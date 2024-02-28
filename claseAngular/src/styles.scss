@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.menu {
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: absolute;
+}
+.ventana-trabajo {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  column-gap: 50px;
+}

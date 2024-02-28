@@ -1,0 +1,7 @@
+<form (ngSubmit)="crearUsuario()">
+  <label for="nombre">Nombre</label>
+  <input type="text" name="nombre" [(ngModel)]="nuevoUsuario.name" />
+  <label for="trabajo">Trabajo</label>
+  <input type="text" name="trabajo" [(ngModel)]="nuevoUsuario.job" />
+  <input type="submit" value="Aceptar" />
+</form>

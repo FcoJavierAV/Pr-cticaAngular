@@ -1,0 +1,9 @@
+<form (ngSubmit)="actualizarUsuario()">
+  <label for="id">id</label>
+  <input type="text" name="id" [(ngModel)]="id" />
+  <label for="nombre">Nombre</label>
+  <input type="text" name="nombre" [(ngModel)]="usuario.name" />
+  <label for="trabajo">Trabajo</label>
+  <input type="text" name="trabajo" [(ngModel)]="usuario.job" />
+  <input type="submit" value="Aceptar" />
+</form>
